@@ -1,0 +1,7 @@
+.env
+.venv
+__pycache__/
+.idea
+db/
+/code/langchain-course-demo/chapter928/chroma_db
+.git

@@ -1,0 +1,6 @@
+[project.scripts]
+dev = "uvicorn main:app --reload --host 0.0.0.0 --port 8000"
+start = "uvicorn main:app --host 0.0.0.0 --port 8000 --workers 2"
+db-migrate = "alembic revision --autogenerate -m \"更新\""
+db-upgrade = "alembic upgrade head"
+db-downgrade = "alembic downgrade -1"
