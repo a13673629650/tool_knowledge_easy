@@ -7,3 +7,4 @@
 
 # 安装相关依赖 
 # uvicorn main:app --reload --host 0.0.0.0 --port 8000启动项目
+# 对应前端仓库地址https://github.com/a13673629650/essay_react 前端安装依赖跑起来就行了
